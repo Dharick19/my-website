@@ -4,28 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY WORKS</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <style>
-        #top{
-
-
-        }
+    
         body{
             background-color: white;
         }
-        .back-top {
+        .top-button{
+
           position: fixed;
           right: 20px;
           bottom: 20px;
           border-radius: 15px;
           padding: 10px 10px;
-          background-color: black;
-          color: white;
+          background-color: skyblue;
+          color: blue;
           text-decoration: none;
+}
+.bottom-button{
+
+          position: fixed;
+          left: 20px;
+          bottom: 20px;
+          border-radius: 15px;
+          padding: 10px 10px;
+          background-color: skyblue;
+          color: blue;
+          text-decoration: none;
+}
+
+.legend{
+    text-align: left;
+    
+}
+<!-- -->
+h1{
+
+    text-align: center;
+    color: cadetblue;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:50px;
+}
+
+footer h2,
+footer h3{
+    color:#00bcd4;
+}
+
+footer p{
+    line-height:1.8;
+}
+
+footer a{
+    color:#00bcd4;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+footer a:hover{
+
+    color: red;
+}
+
+footer a:visited{
+    text-decoration:underline;
+    color: yellowgreen;
+}
+
+footer a:active{
+    text-decoration:underline;
+    color:green;
+}
+
+
+
+footer hr{
+    width:60%;
+    margin:20px auto;
+    border:1px solid #555;
+}
+.mail{
+    color: red;
+    text-decoration: underline;
 }
 
     </style>
 </head>
 <body id = "top">
+
+    <h1>Nice to meet you !</h1>
+
+    <a href="#bottom" class="bottom-button">Go to bottom</a>
 
     <iframe  class = "task1" src= "Task 2.html" height="700px" width="100%"> </iframe> <hr>
    <iframe src="Task3.html" frameborder="0" height="700px" width="100%"> </iframe> <hr>
@@ -37,7 +111,49 @@
   <iframe src="task 10.html" frameborder="0"  height="700px" width="100%"></iframe> <hr>
   <iframe src="task 11.html"  height="700px" width="100%"></iframe>
 
-  <a href="#top" class="back-top">Back to Top</a>
+  <a href="#top" class="top-button">Back to Top</a>
+  <footer id = "bottom">
+
+    <fieldset>
+    <legend >Contact me</legend>
+
+    <footer id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Hi, I'm <strong>Dharick</strong>, an aspiring Java Full Stack Developer
+        and Cybersecurity Enthusiast. I enjoy building responsive websites,
+        learning secure coding practices, and exploring new technologies.
+        I'm passionate about creating clean, user-friendly web applications.
+    </p>
+
+    <hr>
+
+    <h3>Contact Details</h3>
+
+    <p><strong>Name:</strong> Dharick Ajees</p>
+    <p><strong>Email:</strong> ajeestharick@gmail.com</p> <a href = "mailto:ajeestharick@gmail.com" class = "mail"> Mail me</a>
+    <p><strong>Phone:</strong> +91 9360426927</p>
+    <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+
+    <h3>Connect With Me</h3>
+
+    <p>
+       
+        <a href="https://github.com/Dharick19" target="_blank">  <i class="fa-brands fa-github" ></i> GitHub</a> |
+        <a href="https://linkedin.com/in/dharickajeescybersec/" target="_blank"><i class="fa-brands fa-linkedin" style="color: rgb(8, 125, 243);"></i> LinkedIn</a> |
+        <a href="https://dharick-ajees.vercel.app/" target="_blank">  <i class="fa-brands fa-chrome"></i> Portfolio</a>
+    </p>
+
+    <hr>
+
+    <p>&copy; 2026 Dharick. All Rights Reserved.</p>
+</footer>
+    
+
+    
+    </fieldset>
+  </footer>
 
     
 </body>
