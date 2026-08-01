@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage sample</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+    
+      
+        
+        nav{
+    
+            background-color:dodgerblue;
+            height: 60px;
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            padding-top: 15px;
+        }
+       li a{
+            color: white;
+            text-decoration: none;
+            font-size: large;
+            font-weight: bold;
+            
+        }
+        li a:hover{
+
+            color: yellow;
+        }
+        .container{
+
+            position: relative;
+            left: 100px;
+            width:90%;
+        
+        }
+        .img1{
+            
+            float: left;
+            border: 5px solid  silver;
+            border-top-left-radius: 15px;
+            margin-top: 30px;
+            margin-left: 70px;
+            padding-top: 20px;
+            height: 370px;
+            width: 350px;
+            text-align: center;
+        }
+        .details{
+            clear: both;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+        .head{
+            color: blue;
+            margin-top: 30px;
+            margin-left: 50px;
+            padding-top: 30px;
+            clear: both;
+        }
+        table{
+            height: 500px;
+            width:80%;
+            text-align: center;
+        }
+        table,th,td{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+        .contact{
+        
+            color: azure;
+            background-color: black;
+            height: 120px;
+            width: 100%;
+            text-align: center;
+            padding-top: 50px;
+
+    
+        }
+        .bottom{
+            color: grey;
+        }
+        .contact:hover{
+
+            color: brown;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+    
+        <nav>
+          <ul>
+            <li><a href="#home"> Product </a></li>
+              <li><a href="#Details"> Details </a></li>
+                <li><a href="#contact"> Contact us </a></li>
+          </ul>
+
+        </nav>
+    </header>
+       <main>
+         <h2 class = "head" id ="home"> Product Lists</h2>
+         <section>
+            <div class ="container">
+                <div class="img1">
+                    <img src="/images/20230205182457Redmi-Note-10S.jpeg" width="170" height="170">
+                    <h2>Redmi Note 10x</h2> <br>
+                    <p>Xiaomi Redmi Note 10S 6.43-inch AMOLED MediaTek Helio G95 6 GB Storage: 128 GB 5000 mAh Camera: 64 MP + 8 MP + 2 MP + 2 MP</p>
+                </div>
+                  <div class="img1">
+                    <img src="/images/hp_laptop.webp" width="170" height="170">
+                    <h2>HP Laptop</h2> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo tempore asperiores alias vel voluptates!</p>
+                </div>
+                  <div class="img1">
+                    <img src="/images/new_earpods.webp" width="170" height="170">
+                    <h2>SONY Earpod</h2> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iusto commodi pariatur totam, aperiam voluptatum!</p>
+                </div>
+                <div class="img1">
+                    <img src="/images/chair.jpg" width="170" height="170">
+                    <h2>Steel Chair</h2> <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus suscipit aspernatur dolorum quas placeat.</p>
+                </div>
+                  <div class="img1">
+                    <img src="/images/lenovo_lap_charger.jpg" width="170" height="170">
+                    <h2>Labtop Charger</h2> <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi ad possimus nesciunt repellat dolor!</p>
+                </div>
+                  <div class="img1">
+                    <img src="/images/shuttle2.webp" width="170" height="170">
+                    <h2>Shuttel</h2> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi nihil numquam pariatur voluptates recusandae iste.</p>
+                </div>
+            </div>
+             <br> <br>
+                 <h2 class = "head" id="Details">Product Details</h2>
+
+                 <br> <b>
+            <section class = "details">
+                
+                <div  class="container">
+                <table>
+                    <tr>
+                        <th>Product image</th>
+                        <th>Product Name</th>
+                        <th>Product Price </th>
+
+                        <th>Product features </th>
+                    
+                        <th>Product Rating</th>
+                    </tr>
+                    <tr>
+                        <td><img src="/images/20230205182457Redmi-Note-10S.jpeg" width="150" height="150" alt = "mobile"></td>
+                        <td>Redmi Note 10s</td>
+                        <td>10000</td>
+                        <td>5100 mAh , 8GB Ram / 128 , sidemount fingerprint</td>
+                        <td>4.6</td>
+                    </tr>
+                     <tr>
+                        <td><img src="/images/hp_laptop.webp" width="150" height="150" alt = "laptop"></td>
+                        <td>HP Labtop</td>
+                        <td>55000</td>
+                        <td>16/512 GB , Backlight keyboard , i7 Processer with 8 core </td>
+                        <td>5</td>
+                    </tr>
+                     <tr>
+                        <td><img src="/images/new_earpods.webp" width="150" height="150" alt = "earpods"></td>
+                        <td>Sony Earpod</td>
+                        <td>1000</td>
+                        <td>True TWS , Bluetooth 5.1 , Wifi 6 , Noise reduction</td>
+                        <td>5</td>
+                    </tr>
+                     <tr>
+                        <td><img src="/images/chair.jpg"  width="150" height="150" alt = "chair"></td>
+                        <td>Steel Chair</td>
+                        <td>2500</td>
+                        <td>Steel armor body , Soft cusine red sponge, </td>
+                        <td>4</td>
+                    </tr>
+                     <tr>
+                        <td><img src="/images/lenovo_lap_charger.jpg"  width="150" height="150" alt = "laptop charger"></td>
+                        <td>Lenovo Lap charger</td>
+                        <td>2000</td>
+                        <td>250 Mega Watt with auto off function on night , Type c support </td>
+                        <td>4.5</td>
+                    </tr>
+                     <tr>
+                        <td><img src="/images/shuttle2.webp"  width="150" height="150" alt = "shuttle"></td>
+                        <td>Shuttle bat</td>
+                        <td>600</td>
+                        <td>Wooden handle , nylon stich thread Printed body</td>
+                        <td>4.1</td>
+                    </tr>
+                </table>
+                </div>
+            
+            </section>
+         </section>
+
+         
+       </main> <br>
+          <footer id = "contact">
+            <div class="contact">
+                <h2 class ="bottom"> Contact us</h2> <br>
+                &copy; Inspire Technology Pvt Ltd <br> <br>
+                  
+                DLF Tech park , Chennai
+            </div>
+            
+          
+          </footer>
+    
+</body>
+</html>
