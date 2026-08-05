@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" >
+
+    <style> 
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        background-color: black;
+       
+        height:45px;
+        width: 100%;
+    
+        
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+    }
+    a{
+        color: azure;
+        text-decoration: none;
+        font-size: large;
+        margin-right: 20px;
+        padding-right: 20px;
+        
+    }
+    a:hover{
+        color: orange;
+         border-bottom: 3px solid orange;
+    }
+    .greet{
+       
+         background:linear-gradient(to right, linen, purple);
+        text-align: center;
+        padding: 50px 0px;
+        height: 150px;
+        width: 100%;
+
+
+    }
+    button{
+        background-color: orange;
+        color: azure;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        
+    }
+    button:hover{
+        background-color: black;
+        color: greenyellow;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+         background-color: aliceblue;
+        height: 350px;
+        width: 100%;
+        padding:20px 20px;
+    
+    }
+    img{
+        
+        float: left;
+        padding:10px 20px;
+        border-radius: 50%;
+      
+    }
+    .insta{
+        color: purple;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .git{
+        color: black;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .linkedin{
+        color: blue;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .facebook{
+        color: blue;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .skills{
+        
+        display: flex;
+        justify-content: space-around;
+        background-color: lightblue;
+        height: 250px;
+        width: 100%;
+        padding: 30px 20px; 
+
+    }
+    img{
+        float: left;
+    }
+    .html{
+
+        border: 2px solid black;
+        border-top: 3px solid purple;
+        border-radius: 15px;
+        background-color: white;
+        height: 160px;
+        width: 300px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        padding: 10px 10px;
+    }
+    .text{
+        padding: 10px 10px;
+    }
+    .htmlcolor{
+        color:orange;
+    }
+    .csscolor{
+        color:blue;
+    }
+    .jscolor{
+        color:yellowgreen;
+    }
+    .star{
+    color: yellow;
+    }
+    .education{
+        background-color: azure;
+        height: 350px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .edu{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 80%;
+        margin: 10px auto;
+    }
+    table, th, td{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .head{
+        color: azure;
+        background-color: blue;
+    }
+    .projects{
+      
+        background-color: yellowgreen;
+        height: 500px;
+        width: 100%;
+       
+        
+    }
+    .list{
+          float: left;
+          clear: right;
+          padding: 20px 250px;
+          
+
+    }
+    .form{
+    
+        background-color: azure;
+        height: 500px;
+        width: 100%;
+        padding: 20px 25px;
+    }
+    input,textarea{
+        height: 25px;
+        width: 300px;
+        padding: 10px 12px;
+        margin: 10px;
+    }
+    input[type="radio"],[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+    } 
+    .select{
+        display: flex;
+        align-items: center;
+        gap : 10px;
+    }
+    
+    .footer{
+        
+        background-color:blanchedalmond;
+        height: 100px;
+        width: 100%;
+        padding:10px 20px;
+    }
+    .footertext{
+
+       float: left;
+       width: 25%;
+       text-align: center;
+
+    }
+    .copy{
+        
+        background-color:blanchedalmond;
+        height: 25px;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    h3:hover{
+        color: orange;
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+           <h2>DHARICK AJEES</h2>
+           <div>
+            <a href="#home"> <i class="fa-solid fa-house"></i> Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+
+           </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="greet" id="home">
+                <h2> Welcome to My Portfolio </h2> <br>
+                <p> I am a web developer and I love to create beautiful and functional websites. </p> <br>
+                <button> Download CV  <i class="fa-solid fa-download"></i> </button>
+            </div>
+        </section>
+           <div>
+
+           </div>
+
+          <section> 
+            <div class="about" id="about">
+                <img src="/images/dharick.jpeg" alt="dharick" height="250" width="250" >
+                  <div><h3>About Me</h3> <br> <br>
+                      <i class="fa-solid fa-circle-user"></i> Dharick ajees  |  <i class="fa-solid fa-computer"></i> Web Developer <br> <br>
+                  <p>Hi, I'm Dharick, a B.Sc. IT graduate passionate about Java development,<br> cybersecurity and building practical software solutions.<p>
+                
+                  <br> <br>
+
+                  <a class="insta" href = "https://www.linkedin.com/in/dharickajeescybersec/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a  class="linkedin" href = "https://www.linkedin.com/in/dharickajeescybersec/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                      <a class="git" href= "https://github.com/Dharick19/" target="_blank"> <i class="fa-brands fa-github"></i>  </a>
+                       <a  class="facebook" href = "https://www.linkedin.com/in/dharickajeescybersec/" target="_blank"><i class="fa-brands fa-facebook" ></i> </a>
+
+                  </div>
+            </div>
+        
+          </section>
+
+          <section>
+            <div class="skills" id="skills">
+                
+        
+
+                <div class="html">
+                    <img class ="icons" src="/images/html logo.jpg" alt="HTML" height="100" width="100" >
+                    <div>
+                        <h3 class="htmlcolor">HTML</h3> <br>
+                        <p> I am proficient in creating semantic and accessible HTML structures. </p> <br> 
+                         <i class="fa-solid fa-star star"></i>
+                         <i class="fa-solid fa-star star"></i>
+                          <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                              <i class="fa-regular fa-star"></i> 
+                </div>
+            </div>
+
+                   <div class="html">
+                    <img class ="icons" src="/images/css logo.jpg" alt="CSS" height="100" width="100" >
+                    <div>
+                        <h3 class="csscolor">CSS</h3> <br>
+                        <p> I am proficient in creating semantic and accessible CSS styles. </p> <br> 
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                         <i class="fa-solid fa-star star"></i>
+                          <i class="fa-solid fa-star star"></i>
+                           <i class="fa-regular fa-star"></i> 
+                </div>
+            </div>
+                 
+                  <div class="html">
+                    <img class ="icons" src="/images/jsr logo.jpg" alt="JavaScript" height="100" width="100" >
+                    <div>
+                        <h3 class="jscolor">JavaScript</h3> <br>
+                        <p> I am proficient in creating semantic and accessible JavaScript functionality. </p> <br> 
+                        <i class="fa-solid fa-star star"></i>
+                          <i class="fa-solid fa-star star"></i>
+                           <i class="fa-solid fa-star star"></i>
+                              <i class="fa-solid fa-star star"></i>
+
+                </div>
+                </div>
+            </div>
+            
+          </section>
+
+          <section>
+            <div class="education" id="education">
+              <h3 class="edu">Education</h3>
+              <table>
+                  <tr>
+                     <th class ="head">Degree</th>
+                       <th class ="head">School</th>
+                         <th class ="head">Year</th>
+                           <th class ="head">Grade</th>
+                  </tr>
+                  <tr>
+                    <td>B.Sc. IT</td>
+                    <td>MSU University</td>
+                    <td>2026</td>
+                    <td>80%</td>
+                  </tr>
+                  <tr></tr>
+                    <td>High School</td>
+                    <td>Government High School</td>
+                    <td>2023</td>
+                    <td>81%</td>
+                  </tr>
+                  <tr>
+                    <td>Middle School</td>
+                    <td>Example Middle School</td>
+                    <td>2021</td>
+                    <td>75%</td>
+                  </tr>
+              </table>
+
+
+            </div>
+          </section>
+          <hr>
+           
+            <section >
+               
+                <div class="projects" >
+                    <div class="list"> 
+                      <h3>My Projects</h3> <br>
+
+                    <dl> 
+                        <dt>E-commmerce Website</dt>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+                    </dl> <br> <br>
+                    <dl> 
+                        <dt>Banking Website</dt>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Java</li>
+                        </ul>
+                        </dl> <br> <br>
+                    <dl> 
+                        <dt>Deep Fake Project</dt>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </dl>
+
+                   
+                    
+                   </div> 
+                   <div>
+                      <section>
+                <div class="form">
+                    <h3>Contact Me</h3>
+                <form>
+                    <label for="name" ></label>
+                      <input type="text" id="name" placeholder="Full Name"> 
+                        <label for="mail" ></label>
+                           <input type="email" id="mail" name="mailid" placeholder="Mail"> <br>
+                    
+                      <label for="mobile" ></label>
+                        <input type="text" id="name" name="mobile" placeholder="Mobile Number" > 
+                    
+                    <label for="date" ></label>
+                      <input type="date" id="date" placeholder="Date of Birth" > <br>
+                      
+                      <div class="select">
+                      <label>Gender :</label>
+                   
+                     <input  type="radio" id="male" name="gender" value="Male">
+                       <label  for="male">Male</label>
+
+                     <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label> 
+                         
+                        <label>|</label>
+                        <label>Skills :</label><br>
+
+                      <input type="checkbox" id="html" name="skills" value="HTML">
+                         <label for="html">HTML</label>
+
+                         <input type="checkbox" id="css" name="skills" value="CSS">
+                             <label for="css">CSS</label>
+
+                          <input type="checkbox" id="js" name="skills" value="JavaScript">
+                             <label for="js">JavaScript</label>
+
+                        </div>
+                    
+                  
+                            
+                             <label for = "area" >Address : </label> <textarea id="area" name="area" rows="4" cols="10">Enter your Address here.</textarea> <br>
+
+                             <label for="upload">Upload Resume :</label>
+                             <input type="file" id="upload" placeholder="Choose file" class="file"> <br>
+                             <button>Submit <i class="fa-solid fa-right-to-bracket"></i></button> <button>Reset <i class="fa-solid fa-rotate-right"></i></button>
+                             
+                   </form>
+                </div>
+            </section>
+
+    </main>
+<footer> 
+    
+    <div class="footer" id="contact">
+
+        <div class="footertext">
+            <h2>Dharick AJEES</h2>
+            <p>Thank you for visiting </p>  
+            <p> my portfolio website.</p>
+        </div> 
+
+          <div class="footertext">
+            <h2><i class="fa-regular fa-envelope"></i></h2>
+            <p>Email</p>
+              <p> ajeestharick@gmail.com</p>
+        </div>
+
+          <div class="footertext">
+            <h2><i class="fa-solid fa-phone"></i></h2>
+            <p>Phone</p>
+              <p> +91 9360426927</p>
+        </div>
+
+          <div class="footertext">
+            <h2>Follow Me</h2>
+            
+                  <a class="insta" href = "https://www.linkedin.com/in/dharickajeescybersec/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a  class="linkedin" href = "https://www.linkedin.com/in/dharickajeescybersec/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                      <a class="git" href= "https://github.com/Dharick19/"_blank"> <i class="fa-brands fa-github"></i>  </a>
+                       <a  class="facebook" href = "https://www.linkedin.com/in/dharickajeescybersec/" target="_blank"><i class="fa-brands fa-facebook" ></i> </a>
+
+           
+        </div>
+         
+
+    </div>
+    </footer>
+     <div class="copy">
+                 &copy; Inspire Technology Pvt Ltd. <br>
+                
+            </div>
+                       </section>
+          
+</body>
+</html>
