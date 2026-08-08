@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    height: 250px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 25px 20px;
+
+   
+}
+h1,p{
+    text-align: center;
+     font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+    
+    
+}
+.centerimg1{
+
+    color: azure;
+    width: 100%;
+    height:160px;
+    padding: 10px;
+    background-image: url('https://tse4.mm.bing.net/th/id/OIP.tJwzcVSi84lXavuhj6ycagHaEK?r=0&pid=Api&h=220&P=0');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+
+.centerimg2{
+
+    color: azure;
+    width: 100%;
+    height:160px;
+    padding: 10px;
+    background-image: url('../../images/sea.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+.centerimg3{
+
+    color: azure;
+    width: 100%;
+    height:160px;
+    padding: 10px;
+    background-image: url('../../images/mountain.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+.centerimg4{
+
+    color: azure;
+    width: 100%;
+    height:160px;
+    padding: 10px;
+    background-image: url('../../images/fog.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position:  center left;
+    background-size: 100% 100%;
+}
+.centerimg5{
+
+    color: azure;
+    width: 100%;
+    height:160px;
+    padding: 10px;
+    background-image: url('../../images/sand.jpg');
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+
+.centerimg6{
+
+    color: azure;
+    width: 100%;
+    height:160px;
+    padding: 10px;
+    background-image: linear-gradient(
+            to right,
+            rgba(11, 140, 221, 0.7),
+            rgba(24, 131, 212, 0.1)
+        ), url('../../images/moon.jpg');
+    background-image: -webkit-linear-gradient();
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+
+
+.btn{
+    position: relative;
+    left: 120px;
+    padding: 5px;
+    color: black;
+    background-color: orangered;
+    border-radius: 5px;
+}
+li{
+
+    margin-left: 25px;
+
+}
+.box1{
+  color:blue;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+    
+}
+.box2{
+  color:purple;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.box3{
+    color:green;
+     font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.box4{
+    color:dodgerblue;
+     font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.box5{
+    color:orangered;
+     font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.box6{
+    color:bisque;
+     font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.first{
+
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-left: 200px;
+}
+.second{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-left: 200px;
+    
+
+}
+
+

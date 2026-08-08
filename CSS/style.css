@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+
+    .heading{
+  font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a {
+  font-family: "Germania One", system-ui;
+  font-weight: 500;
+  font-size: larger;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+
+    display: flex;
+    justify-content: flex-end;
+    background-color:black;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li a{
+  
+    display: block;
+    float: left;
+    color: azure;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+li a:active{
+
+    color: blue;
+}
+
+li a:hover{
+
+    color:tomato;
+
+
+}
+iframe {
+
+  height: 700px;
+  width: 100%;
+
+}
+
+@media (max-width: 750px) {
+  iframe {
+    height: 450px;
+  }
+}

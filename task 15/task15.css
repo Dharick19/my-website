@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    height: 120px;
+    width:700px;
+    background-image: url('../../images/founder.png');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position:  right 5px center ;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.container2{
+    
+    height: 120px;
+      width:700px;
+    background-image: url('../../images/ceo.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position:  right 5px center ;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+
+}
+.container3{
+    
+    height: 120px;
+      width:700px;
+    background-image: url('../../images/director.png');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position:  right 5px center ;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+
+}.container4{
+    
+    height: 120px;
+      width:700px;
+    background-image: url('../../images/invester.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position:  right 5px center ;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+
+}
