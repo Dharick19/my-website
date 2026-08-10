@@ -10,6 +10,8 @@
   font-family: "Skranji", system-ui;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
+   text-shadow: 3px 2px 1px black;
 }
 
 a {
@@ -76,6 +78,7 @@ iframe {
   font-family: "Skranji", system-ui;
   font-weight: 700;
   font-style: normal;
+  
 }
 
 a {
