@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body > div{
+
+    border: 3px solid green;
+    border-radius: 15px;
+    height: 300px;
+    width: 390px;
+    margin: 100px 590px;
+    padding: 15px;
+
+}
+p::first-letter{
+
+    color: brown;
+    font-weight: bold;
+    font-size: xxx-large;
+    text-align: center;
+    float: left;
+}
+
+form > input{
+
+
+    margin: 10px 30px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+}
+input[type="email"],input[type="password"]{
+
+    color: blue;
+    background-color: aliceblue;
+
+}
+
+input[type="email"]:focus,input[type="password"]:focus {
+
+    color: brown;
+    background-color: paleturquoise;
+
+}
+
+
+
+input[type="submit"]{
+    color: aliceblue;
+    background-color: blueviolet;
+    width: 30%;
+    margin: 10px 110px;
+
+
+}
+[type="submit"]:hover{
+
+    color: red;
+    background-color: yellowgreen;
+}
+
+
+div > h3::first-letter {
+
+     color: brown;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+h3 > a:active{
+    border: 2px solid green;
+    padding: 10px;
+    
+
+}
+
+h3 > a:focus{
+
+    color: brown;
+      border: 2px solid green;
+    padding: 10px;
+}
