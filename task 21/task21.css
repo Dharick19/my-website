@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body > .container{
+
+  
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 100px 500px;
+}
+
+div > div {
+    position :relative;
+    left:30px;
+     height: 150px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: green;
+    border: 2px solid black;
+    margin: 15px;
+     padding: 20px;
+
+}
+
+div ~ div {
+    position: sticky;
+    top:50px;
+    height: 150px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 35px;
+     padding: 20px;
+    background-color: orange;
+    border: 2px solid black;
+    
+
+}
+
+.container + div{
+     position :absolute;
+     top:20%;
+    left:80%;
+     height: 150px;
+    width: 15%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 10px;
+  
+
+   
+
+
+}
+ h2{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    background-color: darkturquoise;
+    border: 2px solid black;
+    height: 30px;
+    width: 100%;
+}
+p{
+      color: white;
+}
