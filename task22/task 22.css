@@ -1,0 +1,161 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    position: relative;
+    top:50px;
+    left: 150px;
+    background: linear-gradient(to bottom , azure, dodgerblue);
+    height: 700px;
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.container > h1{
+    position: fixed;
+    left: 200px;
+    color: brown;
+    text-align: center;
+    padding-top: 10px;
+}
+.box{
+   
+    margin: 100px 30px;
+    display: inline-block;
+    height: 170px;
+    width:250px;
+    border: 1px solid black;
+}
+   
+.box1{
+
+    background-image: url("https://i.ytimg.com/vi/CN0lNff-zm0/maxresdefault.jpg");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box2{
+
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.WvzpYO-OwjY4ByUfJCWMFwHaEO?r=0&pid=Api&h=220&P=0");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box3{
+
+    background-image: url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1741890645/fom-website/2025/F1%20movie/f1_movie_poster16x9%20(1).jpg");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box4{
+
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.G0E4z2Y-gXrg6LGx4erIzQHaK-?r=0&pid=Api&h=220&P=0");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box5{
+
+    background-image: url("https://cdn.bhdw.net/im/deadpool-3-movie-superhero-poster-wallpaper-108020_w635.webp");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box6{
+
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.Yt1kUfWD4lgIpuQdnW_ZvAHaE8?r=0&pid=Api&h=220&P=0");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box7{
+
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.0yNftrPbim0w1kqDc7fHnQHaFj?r=0&pid=Api&h=220&P=0");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box8{
+
+    background-image: url("https://img.nowrunning.com/content/movie/2025/drago-30522/bg_dragon.jpg");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box9{
+
+    background-image: url("https://cdn.123telugu.com/content/wp-content/uploads/2025/10/Bison-eng-2.webp");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.box10{
+
+    background-image: url("https://cdn.123telugu.com/content/wp-content/uploads/2025/10/Karuppu.webp");
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.box1:hover , .box2:hover , .box3:hover , .box4:hover , .box5:hover , .box6:hover , .box7:hover, .box8:hover , .box9:hover , .box10:hover{
+
+    
+    
+    transform: scale(1.25);
+    height: 330px;
+    
+
+     
+    background-attachment: cover;
+    border-radius: 15px;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-color: bisque;
+
+    .details{
+        display: block;
+        position: relative;
+        top:153px;
+        padding: 10px;
+    
+    }
+
+}
+.details {
+    display: none;
+    white-space: normal;
+    
+}
+
+
