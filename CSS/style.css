@@ -7,6 +7,10 @@
     margin: 0;
     padding: 0;
   }
+ body{
+
+    background-color: whitesmoke;
+}
 
 h1{
   font-family: "Reem Kufi", sans-serif;
@@ -27,8 +31,6 @@ header{
     width: 100%;
     z-index: 999;
 }
-
-
 
 nav {
 
@@ -122,11 +124,6 @@ a {
   font-style: normal;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 
 li ~ a{
   
@@ -161,10 +158,7 @@ li > a:hover{
           color: turquoise;
           text-decoration: none;
 }
-body{
 
-    background-color: whitesmoke;
-}
 .bottom-button{
 
           position: fixed;
