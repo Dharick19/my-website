@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+
+display: flex;
+margin: 100 auto;
+
+}
+.first{
+
+    height: 250px;
+    width: 350px;
+    margin: 400px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: blue;
+    color: aliceblue;
+}
+.second{
+
+     height: 600px;
+    width: 50%;
+    margin: 400px 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    overflow-y: auto;
+    font-size: 20px;
+    padding: 10px;
+
+}

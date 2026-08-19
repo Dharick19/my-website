@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 70%;
+    height: 80%;
+    background-color: azure;
+    padding-top: 40px;
+    margin: 100px auto;
+    align-items: center;
+    border: 2px solid black;
+    
+
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+h2{
+    color: azure;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 9px;
+    margin: 30px auto;
+    width: 100px;
+    justify-content: center;
+    align-items: end;
+}
+
+.box{
+
+    width: 180px;
+    height: 60px;
+    color: green;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 23px;
+    align-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+.boxes{
+     display: flex;
+     justify-content: center;
+     flex-shrink: 0;
+    margin: 80px auto;
+    flex-wrap: wrap;
+}
