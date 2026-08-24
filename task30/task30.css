@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 90px 1fr;
+    width: 100%;
+    height: 100vh;
+    }
+.box{
+
+
+    background-color: aliceblue;
+    border: 0.5px solid black;
+    width: 100%;
+    padding: 20px;
+}
+.box1{
+    background-image: url('../../images/done.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 10.7%;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: gray;
+    
+}
+.box2{
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+    background-color: dodgerblue;
+}
+.profile{
+    background-color: azure;
+    border-radius: 50%;
+}
+.sidebar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px ;
+}
+.sidebar div{
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    top: 50px;
+
+    
+}
+.sidebar img{
+    margin: 10px 2px;
+}
+
+img{
+
+    border-radius: 50%;
+    margin: 10px;
+}
+
+div > h1{
+    display: none;
+}
+
+ .hide:hover{
+
+    h1{
+        display: block;
+        font-size: small;
+    
+    }
+
+
+
+     transform: scaleX(1.5);
+    
+
+    
+} 
