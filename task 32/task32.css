@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+
+    perspective: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 300px;
+    width: 300px;
+    border: 5px solid turquoise;
+
+    position: relative;
+
+    transform-style: preserve-3d;
+}
+
+
+
+
+.box2 {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../images/linux.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+.front {
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: brown;
+
+    transform-origin: left center;
+
+    transform-style: preserve-3d;
+
+    transition: transform 2s ;
+
+    z-index: 2;
+
+    backface-visibility: hidden; 
+} 
+
+
+
+
+.back {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: teal;
+
+    transform: rotateY(180deg);
+
+    backface-visibility: hidden;
+}
+
+
+
+.main:hover .front  {
+    transform: rotateY(-180deg);
+}

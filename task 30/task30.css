@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .grid{
 
@@ -81,6 +82,7 @@ div > h1{
 
 
      transform: scaleX(1.5);
+     transition-duration: 2s;
     
 
     
