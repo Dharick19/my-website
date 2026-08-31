@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+       height: 100vh;
+       width: 100vw;
+       
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+        perspective: 1000px;
+}
+.cards{
+
+     position: relative;
+
+    height: 250px;
+    width: 30%;
+  
+
+    border: 1px solid black;
+    border-radius: 15px;
+
+   transform-style: preserve-3d;
+   transition-duration: 2s;
+}
+.front{
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url("https://www.americanexpress.com/content/dam/amex/en-ca/benefits/member-plus/sbs_plat_metal_2018_ca.png.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    
+
+
+}
+.back{
+
+    position: absolute;
+    top: 0;
+    
+    height: 100%;
+    width: 100%;
+
+    background-image: url("https://fortune.com/img-assets/wp-content/uploads/2024/02/American-Express-Black-Card.png?w=1024&q=75");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+
+
+}
+.cards:hover{
+    
+    transform: rotateY(180deg);
+
+    
+    
+}
+
